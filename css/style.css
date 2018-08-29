@@ -1,0 +1,289 @@
+.wave{
+	width: 100%;
+	min-height: 125vh;
+	position: relative;
+	background-image:url('../img/562634.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wave .container {
+	height: 100%;
+}
+
+.wave .container .row{
+	height: 100vh;
+}
+
+.text-header{
+	max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 0 20px;
+}
+
+.text-header p{
+	font-family: 'Raleway', sans-serif;
+	color: white;	
+	font-weight: 900;
+  	font-size:25px;
+  	font-weight: 300;
+  	text-align: left;
+  	
+ 
+
+}
+.text-header h1{
+	font-family: 'Monoton', cursive;
+	font-size: 70px;
+	color: rgb(126, 108, 252);
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.text-header h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #00B0FF;
+	font-weight: 600;
+	text-align: right;
+	
+
+}
+
+.wave:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height:230px;
+	background: url('../img/wave.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	
+	background: linear-gradient(90deg, rgb(48, 33, 79) , rgba(55, 38, 92,0.99),rgba(65, 44, 111,0.95),rgba(79, 55, 133,0.95));
+	position: absolute;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*ABOUT Section*/
+.about-section {
+    position: relative;
+    padding: 160px 0px 0px;
+    background-color: #fff;
+}
+.about-section .content-column {
+    position: relative;
+    margin-bottom: 60px;
+}
+.about-section .content-column .inner-column {
+    position: relative;
+    padding-top: 20px;
+}
+
+.about-section .content-column .big-title {
+	font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    font-size: 115px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#f6f6f6;
+    letter-spacing: 1px;
+}
+
+.about-section .content-column h2 {
+	font-family: 'Montserrat',sans-serif;
+    position: relative;
+    color: #333;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+     padding-top: 8%;
+
+
+        
+}
+.about-section .content-column .text {
+    position: relative;
+    color: #777777;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
+     font-family: 'Raleway', sans-serif;
+}
+
+.about-section .image-column {
+    position: relative;
+}
+
+.about-section .image-column .image {
+    position: relative;
+    margin-bottom: -175px;
+}
+.about-section .image-column img {
+    position: relative;
+    max-width: none;
+}
+
+
+
+/*SERVICES SECTION*/
+.service-section{
+	position: relative;
+    padding: 180px 0px 150px;
+    background:#f9f9ff!important;
+}
+.centered {
+    text-align: center !important;
+}
+
+.section-title{
+	position: relative;
+    margin-bottom: 85px;
+
+    z-index: 2;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.section-title .big-title{
+	position: absolute;
+    top: -20px;
+    width: 100%;
+    font-size: 120px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.section-title h2{
+	font-family: 'Montserrat',sans-serif;
+	position: relative;
+    color: #333333;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding-top: 8%;
+
+}
+
+.featured-block-three {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.featured-block-three .inner-box {
+    position: relative;
+    display: block;
+}
+
+.featured-block-three .inner-box .icon-box {
+    position: relative;
+    color: rgb(126, 108, 252);
+    font-size: 60px;
+    line-height: 1em;
+    margin-bottom: 18px;
+}
+.featured-block-three .inner-box h3 {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 16px;
+     font-family: 'Montserrat',sans-serif;
+}
+.featured-block-three .inner-box .text {
+    position: relative;
+    color: #666666;
+    line-height: 1.9em;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.products-section {
+    position: relative;
+    padding: 170px 0px 125px;
+    background-color: #f8f8f8;
+}
+
+
+.accordian-column .block {
+	position: relative;
+    padding: 25px 0px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-box-shadow: 0px 4px 14px 0px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 4px 14px 0px rgba(237,237,237,1);
+    box-shadow: 0px 4px 14px 0px rgba(237,237,237,1);
+
+}
+
+.accordian-column .block .acc-btn {
+    position: relative;
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0px 50px 0px 94px;
+    transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+.accordian-column .block .acc-btn .img-icon-outer {
+    position: absolute;
+    left: 24px;
+    top: -2px;
+    color: #f7502e;
+}
+
+.accordian-column .block .acc-btn .img-icon-outer .icon-two {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.accordian-column .block .icon-outer {
+    position: absolute;
+    right: 25px;
+    font-size: 18px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.accordian-column .block .icon-outer .icon {
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9em;
+    text-align: center;
+    color: #e3e3e3;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
