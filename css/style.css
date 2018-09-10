@@ -43,7 +43,7 @@
 .text-header h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	color: #00B0FF;
+	color: #FB314E;
 	font-weight: 600;
 	text-align: right;
 	
@@ -269,17 +269,18 @@
 
 .accordian-column .block .acc-btn {
     position: relative;
-    font-size: 17px;
+    font-size: 20px;
     cursor: pointer;
     line-height: 30px;
-    color: #000000;
-    font-weight: 600;
+    color: black;
+    font-weight: 700;
     padding: 0px 50px 0px 94px;
     transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .accordian-column .block .acc-btn .img-icon-outer {
@@ -287,6 +288,13 @@
     left: 24px;
     top: -2px;
     color: #f7502e;
+
+}
+.card-body{
+    position: relative;
+    color: #666666;
+    line-height: 1.9em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .accordian-column .block .acc-btn .img-icon-outer .icon-two {
@@ -347,3 +355,67 @@
 
 /* cell number */
 
+.testimonial-section{
+    position: relative;
+    padding: 180px 0px 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: -ms-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
+    background-image: -moz-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
+    background-image: -o-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FB314E), color-stop(100, #fe6d4e));
+    background-image: -webkit-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
+    background-image: linear-gradient(to top, #FB314E 0%, #fe6d4e 100%);
+
+}
+.testimonial-section .sec-title {
+    margin-bottom: 35px;
+}
+
+.carousel{
+    width: 100%;
+}
+.carousel-cell {
+    position: relative;
+  width: 100%;
+  
+ 
+}
+
+/* cell number */
+.carousel-cell:before {
+
+}
+
+.carousel-cell .testimonial-single {
+    position: relative;
+    display: block;
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.carousel-cell .testimonial-single .author {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 3px solid #ffffff;
+}
+.carousel-cell .testimonial-single .quote-icon {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.carousel-cell .testimonial-single .text {
+    position: relative;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7em;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
