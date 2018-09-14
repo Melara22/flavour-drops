@@ -1,3 +1,9 @@
+body{
+    
+
+}
+
+
 .wave{
 	width: 100%;
 	min-height: 125vh;
@@ -23,11 +29,10 @@
 }
 
 .text-header p{
-	font-family: 'Raleway', sans-serif;
-	color: white;	
-	font-weight: 900;
+	font-family: 'Raleway', sans-serif;	
+	font-weight: 600;
   	font-size:25px;
-  	font-weight: 300;
+
   	text-align: left;
   	
  
@@ -36,14 +41,17 @@
 .text-header h1{
 	font-family: 'Monoton', cursive;
 	font-size: 70px;
-	color: rgb(126, 108, 252);
-	line-height: 50px;
+    background: -webkit-linear-gradient(rgb(126, 108, 252), #5B4EB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+
 	text-transform: uppercase;
 }
 .text-header h2{
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	color: #FB314E;
+	color: #37dbf5;
 	font-weight: 600;
 	text-align: right;
 	
@@ -60,7 +68,7 @@
 	background: url('../img/wave.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	z-index: 1;
+	z-index: 100;
 }
 
 .overlay{
@@ -77,7 +85,8 @@
 .about-section {
     position: relative;
     padding: 160px 0px 0px;
-    background-color: #fff;
+    background-size: cover;
+    background: white;
 }
 .about-section .content-column {
     position: relative;
@@ -101,21 +110,22 @@
 }
 
 .about-section .content-column h2 {
-	font-family: 'Montserrat',sans-serif;
+
+
+     font-family: 'Montserrat',sans-serif;
     position: relative;
-    color: #333;
-    font-weight: 600;
+    color: #333333;
     font-size: 43px;
-    line-height: 1.4em;
-    margin-bottom: 25px;
-     padding-top: 8%;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding-top: 8%;
 
 
         
 }
 .about-section .content-column .text {
     position: relative;
-    color: #777777;
+    color: #666666;
     font-size: 14px;
     line-height: 2em;
     margin-bottom: 32px;
@@ -132,7 +142,7 @@
 }
 .about-section .image-column img {
     position: relative;
-    max-width: none;
+    
 }
 
 
@@ -141,7 +151,10 @@
 .service-section{
 	position: relative;
     padding: 180px 0px 150px;
-    background:#f9f9ff!important;
+    background-image: url('../img/fondo-blur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 .centered {
     text-align: center !important;
@@ -161,7 +174,7 @@
     width: 100%;
     font-size: 120px;
     font-weight: 800;
-    color: #fff;
+    color: rgba(48, 33, 79,0.15);
     text-transform: uppercase;
 
 }
@@ -189,11 +202,16 @@
 
 .featured-block-three .inner-box .icon-box {
     position: relative;
-    color: #00B0FF;
+    
     font-size: 60px;
     line-height: 1em;
     margin-bottom: 18px;
 }
+
+.featured-block-three .inner-box .icon-box .fal{
+    color: rgb(126, 108, 252);
+}
+
 .featured-block-three .inner-box h3 {
     position: relative;
     color: black;
@@ -214,14 +232,17 @@
 .separator{
     min-height: 50vh;
   
-    background: linear-gradient(90deg, rgb(126, 108, 252), #7463E8, #6A5BD4, #6052BF,#5B4EB5);
+   background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
+    background: linear-gradient(to left, #087cf9, #37dbf5);
 }
 
 
 .products-section {
     position: relative;
     padding: 170px 0px 125px;
-    background-color: white;
+    background-image: url('../img/fondo-blur.fw.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .products-section .section-title .big-title {
@@ -358,14 +379,10 @@
 .testimonial-section{
     position: relative;
     padding: 180px 0px 190px;
-    background-size: cover;
+    background-image: url('../img/fondo-blur.png');
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: -ms-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
-    background-image: -moz-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
-    background-image: -o-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FB314E), color-stop(100, #fe6d4e));
-    background-image: -webkit-linear-gradient(bottom, #FB314E 0%, #fe6d4e 100%);
-    background-image: linear-gradient(to top, #FB314E 0%, #fe6d4e 100%);
+    
 
 }
 .testimonial-section .sec-title {
@@ -411,11 +428,199 @@
 
 .carousel-cell .testimonial-single .text {
     position: relative;
-    color: #ffffff;
+    color: #666666;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.7em;
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+    position: relative;
+    padding: 130px 0px 130px;
+    
+   
+   
+}
+
+.contact-section .big-title{
+   color: rgba(48, 33, 79,0.15);
+}
+
+
+.contact-option .option{
+   
+}
+.contact-option .option:before{
+        position: absolute;
+    content: '';
+    left: 36px;
+    right: 36px;
+    bottom: -6px;
+    height: 6px;
+    background-color: #087cf9;
+}
+
+.contact-option .option .icon{
+    position: relative;
+    font-size: 60px;
+    line-height: 1em;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.contact-option .option .icon .fal{
+    color: rgb(126, 108, 252);
+}
+
+.footer {
+    background: linear-gradient(90deg, rgb(48, 33, 79) , rgba(55, 38, 92,0.99),rgba(65, 44, 111,0.95),rgba(79, 55, 133,0.95));
+    padding: 80px 0;
+}
+
+.option p{
+    position: relative;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+
+.footer-content h1{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(126, 108, 252), #5B4EB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.footer-content .social .fab{
+    background: -webkit-linear-gradient(rgb(126, 108, 252), #5B4EB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    padding-right: 5%;
+}
+
+.footer-content p{
+    color: #FB314E;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@media (max-width: 576px){
+    .wave{
+        min-height: 100vh;
+    }
+    .wave:before{
+        display: none;
+    }
+    .text-header h1 {
+        font-size: 40px;
+        text-align: center;  
+    }
+    .text-header p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .text-header h2 {
+        
+        font-size: 15px;
+        
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .about-section .content-column h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 0%;
+    }
+
+    .about-section .content-column .big-title {
+    
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .service-section {
+        background-position-x:initial;   
+    }
+
+    .service-section .section-title h2{
+        font-size: 30px;
+        text-align: center;
+            padding-top: 6%; 
+    }
+
+    .service-section .section-title .big-title{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .products-section {
+        background-position-x:right;   
+    }
+
+    .products-section .section-title h2 {
+        font-size: 30px;
+        text-align: center;
+            padding-top: 6%;
+    }
+
+     .products-section .section-title .big-title{
+        font-size: 50px;
+        text-align: center;
+     }
+
+     .testimonial-section {
+        background-position-x:initial;
+     }
+
+     .testimonial-section .section-title h2{
+        font-size: 30px;
+        text-align: center;
+            padding-top: 2%;
+     }
+
+     .testimonial-section .section-title .big-title{
+        font-size: 40px;
+        text-align: center;
+     }
+     .contact-section .section-title h2{
+        font-size: 30px;
+        text-align: center;
+            padding-top: 4%;
+     }
+
+     .contact-section .section-title .big-title{
+        font-size: 40px;
+        text-align: center;
+     }
 }
