@@ -3,6 +3,69 @@ body{
 
 }
 
+.navbar {
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 10000;
+  transition: background-color 1s ease 0s;
+}
+
+
+
+.navbar-default .navbar-brand {
+    font-family: 'Amaranth', sans-serif;
+    color: rgb(126, 108, 252);
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: #37dbf5!important;
+  background-color: #583D94;
+
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: rgb(126, 108, 252);
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: #C57ED3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #490D40;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: #C57ED3;
+  background-color: #C57ED3;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #490D40;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: rgba(65, 44, 111,1);
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: rgb(126, 108, 252);
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: rgb(126, 108, 252);
+  transition: color 1s ease 0s;
+}
+
+
 
 .wave{
 	width: 100%;
@@ -39,14 +102,15 @@ body{
 
 }
 .text-header h1{
-	font-family: 'Monoton', cursive;
-	font-size: 70px;
-    background: -webkit-linear-gradient(rgb(126, 108, 252), #5B4EB5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 80px;
+    color: rgb(126, 108, 252);
+    text-shadow: -1px 0 #37dbf5, 0 1px #37dbf5, 1px 0 #37dbf5, 0 -1px #37dbf5;
+
+
+
 	
 
-	text-transform: uppercase;
 }
 .text-header h2{
 	font-family: 'Raleway', sans-serif;
@@ -145,6 +209,18 @@ body{
     
 }
 
+
+.separator .container .row{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separator .container .row h2{
+    font-family: 'Amaranth', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
 
 
 /*SERVICES SECTION*/
@@ -274,7 +350,7 @@ body{
 
 .accordian-column .block {
 	position: relative;
-    padding: 25px 0px;
+    padding: 35px 0px;
     margin-bottom: 10px;
     background-color: #ffffff;
     transition: all 500ms ease;
@@ -304,10 +380,14 @@ body{
     font-family: 'Montserrat',sans-serif;
 }
 
+.acc-btn span{
+    padding-left: 15%;
+     
+}
 .accordian-column .block .acc-btn .img-icon-outer {
     position: absolute;
     left: 24px;
-    top: -2px;
+    top: -40px;
     color: #f7502e;
 
 }
